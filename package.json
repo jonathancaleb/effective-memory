@@ -12,7 +12,8 @@
     "generate": "drizzle-kit generate",
     "drop": "drizzle-kit drop",
     "check": "drizzle-kit check",
-    "up": "drizzle-kit up"
+    "up": "drizzle-kit up",
+    "migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
