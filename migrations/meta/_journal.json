@@ -15,6 +15,13 @@
       "when": 1716446563809,
       "tag": "0001_plain_magdalene",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1717319675501,
+      "tag": "0002_yielding_iron_lad",
+      "breakpoints": true
     }
   ]
 }
