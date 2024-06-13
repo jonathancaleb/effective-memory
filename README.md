@@ -1,4 +1,4 @@
-# App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
+# Moved Project directory to ENOFLOW, This repo is no longer under active development.
 
 
 
