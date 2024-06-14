@@ -1,8 +1,8 @@
 # App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
 
 
-
-### Features in this application.
+# "migrate": "bun run src/lib/supabase/migration.ts"
+### Features in this application
 
 - 🤯 Real-time cursors
 - 📝 Real-time text selection

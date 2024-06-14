@@ -1,7 +1,5 @@
 {
-  "id": "5e0fdcd0-34a9-451e-b1bf-9ecfb43c94e7",
-  "prevId": "00000000-0000-0000-0000-000000000000",
-  "version": "6",
+  "version": "7",
   "dialect": "postgresql",
   "tables": {
     "public.workspaces": {
@@ -73,8 +71,10 @@
   "enums": {},
   "schemas": {},
   "_meta": {
-    "columns": {},
     "schemas": {},
-    "tables": {}
-  }
+    "tables": {},
+    "columns": {}
+  },
+  "id": "5e0fdcd0-34a9-451e-b1bf-9ecfb43c94e7",
+  "prevId": "00000000-0000-0000-0000-000000000000"
 }

@@ -1,7 +1,5 @@
 {
-  "id": "30c7face-0086-496d-9267-6d4ca78531dd",
-  "prevId": "2db46284-8e02-4916-842c-05e1d0a20011",
-  "version": "6",
+  "version": "7",
   "dialect": "postgresql",
   "tables": {
     "public.files": {
@@ -70,28 +68,28 @@
         "files_workspace_id_workspaces_id_fk": {
           "name": "files_workspace_id_workspaces_id_fk",
           "tableFrom": "files",
-          "tableTo": "workspaces",
           "columnsFrom": [
             "workspace_id"
           ],
+          "tableTo": "workspaces",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "cascade"
         },
         "files_folder_id_folders_id_fk": {
           "name": "files_folder_id_folders_id_fk",
           "tableFrom": "files",
-          "tableTo": "folders",
           "columnsFrom": [
             "folder_id"
           ],
+          "tableTo": "folders",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "cascade"
         }
       },
       "compositePrimaryKeys": {},
@@ -157,15 +155,15 @@
         "folders_workspace_id_workspaces_id_fk": {
           "name": "folders_workspace_id_workspaces_id_fk",
           "tableFrom": "folders",
-          "tableTo": "workspaces",
           "columnsFrom": [
             "workspace_id"
           ],
+          "tableTo": "workspaces",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "cascade"
         }
       },
       "compositePrimaryKeys": {},
@@ -280,15 +278,15 @@
         "subscriptions_price_id_prices_id_fk": {
           "name": "subscriptions_price_id_prices_id_fk",
           "tableFrom": "subscriptions",
-          "tableTo": "prices",
           "columnsFrom": [
             "price_id"
           ],
+          "tableTo": "prices",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
@@ -363,8 +361,10 @@
   "enums": {},
   "schemas": {},
   "_meta": {
-    "columns": {},
     "schemas": {},
-    "tables": {}
-  }
+    "tables": {},
+    "columns": {}
+  },
+  "id": "30c7face-0086-496d-9267-6d4ca78531dd",
+  "prevId": "2db46284-8e02-4916-842c-05e1d0a20011"
 }
